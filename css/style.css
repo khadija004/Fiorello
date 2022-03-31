@@ -1,0 +1,266 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins:wght@200;300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lora&family=Playfair+Display&family=Poppins:wght@200;300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Playfair+Display&family=Poppins:wght@200;300;400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+p {
+  font-size: 17px;
+  line-height: 29px;
+  margin-top: 27px;
+  font-family: 'Lora', serif;
+  font-weight: 400;
+  color: #6d6a6a;
+}
+
+h1 {
+  font-family: 'Playfair Display', serif;
+  color: black;
+  line-height: 51px;
+  font-weight: 400;
+  font-size: 41px;
+}
+
+#nav {
+  background-color: #fff;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+#nav #nav {
+  width: 100%;
+}
+
+#nav a {
+  color: #1b1b1b;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+#nav img {
+  width: 100%;
+}
+
+#slider {
+  background-image: url(../photos/slider-bg.jpg);
+  padding: 5rem 0;
+  background-size: cover;
+  background-position: center;
+}
+
+#slider span {
+  color: #FF0000;
+}
+
+#catalogue ul {
+  margin: 15px 0;
+}
+
+#catalogue li {
+  margin-right: 25px;
+}
+
+#catalogue a {
+  color: #1b1b1b;
+  font-size: 12px;
+  letter-spacing: .1em;
+  font-weight: 500;
+  font-family: 'Montserrat', sans-serif;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+#catalogue a:hover {
+  color: #FF0000;
+}
+
+#catalogue img {
+  width: 100%;
+}
+
+#catalogue .text {
+  text-align: center;
+}
+
+#valentine {
+  background-color: #F7F7F7;
+  padding: 50px 0;
+}
+
+#valentine .left {
+  width: 100%;
+}
+
+#valentine .val {
+  font-size: 38px;
+  line-height: 1.447em;
+  font-family: 'Playfair Display', serif;
+  font-weight: 400;
+  color: #f34f3f;
+}
+
+#valentine span {
+  font-size: 17px;
+  line-height: 29px;
+  margin-top: 27px;
+  font-family: 'Lora', serif;
+  font-weight: 400;
+  color: #6d6a6a;
+}
+
+#valentine span {
+  margin: 20px 0;
+  line-height: 1.6em;
+}
+
+#experts .col-lg-3 {
+  text-align: center;
+}
+
+#experts h6 {
+  color: #1b1b1b;
+  font-size: 12px;
+  letter-spacing: .1em;
+  font-weight: 500;
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 15px;
+}
+
+#experts span {
+  font-size: 17px;
+  line-height: 29px;
+  margin-top: 27px;
+  font-family: 'Lora', serif;
+  font-weight: 400;
+  color: #6d6a6a;
+}
+
+#experts p {
+  width: 50%;
+  display: inline-block;
+}
+
+#subscribe {
+  background: url(../photos/subscribe.jpg);
+  padding: 5rem 0;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#subscribe form {
+  border: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 70%;
+  margin: 0 auto;
+}
+
+#subscribe input {
+  border: none;
+  width: 70%;
+  padding: 0 1rem;
+  height: 60px;
+}
+
+#subscribe button {
+  border: none;
+  background-color: #FF3D2A;
+  color: #fff;
+  width: 30%;
+}
+
+#subscribe h3 {
+  color: white;
+  font-family: 'Playfair Display', serif;
+  line-height: 1.4em;
+  font-weight: 400;
+  font-size: 30px;
+}
+
+#blog {
+  background-color: #F8F8F8;
+}
+
+#blog img {
+  width: 100%;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+#blog .top-p {
+  width: 50%;
+  display: inline-block;
+}
+
+#blog a {
+  font-family: 'Playfair Display', serif;
+  line-height: 1.4em;
+  font-weight: 100;
+  font-size: 20px;
+  color: #000;
+}
+
+#blog .bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#blog .col-lg-4 {
+  vertical-align: bottom;
+}
+
+#blog .col-lg-4 .img {
+  overflow: hidden;
+}
+
+#blog .col-lg-4:hover img {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+#info h6 {
+  color: #1b1b1b;
+  font-size: 14px;
+  letter-spacing: .1em;
+  font-weight: 500;
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 15px;
+}
+
+#info span {
+  font-size: 17px;
+  line-height: 29px;
+  margin-top: 27px;
+  font-family: 'Lora', serif;
+  font-weight: 400;
+  color: #6d6a6a;
+}
+
+#info p {
+  color: #4b4747;
+  font-family: 'Lora', serif;
+  font-style: italic;
+  font-size: 24px;
+  line-height: 1.5em;
+  width: 50%;
+  margin: 0 auto;
+}
+/*# sourceMappingURL=style.css.map */
